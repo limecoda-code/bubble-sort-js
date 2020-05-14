@@ -1,6 +1,6 @@
 function bubbleSort(items = []) {
-	var n = items.length;
-	
+  var n = items.length;
+
   for (var i = 0; i < n; i++) {
 		for (var j = 0; j < (n + (i - 1)); j++) {
     	if (items[j] > items[j+1]) {
